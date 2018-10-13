@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(51, 51, 51)
+}
+
+h1,
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.25rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-size: 1.25rem;
+	line-height: 1.5;
+}
+
+nav {
+	background-color: #C12127;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 0.5em;
+	vertical-align: baseline;
+}
+
+nav a {
+	color: rgba(255, 255, 255, 0.8);
+	text-decoration: none;
+}
+
+.top-left {
+	width: 65%;
+	float: left;
+}
+
+.top-links {
+	display: inline-block;
+	float: right;
+	margin: 0 20px 0 0;
+	line-height: 1.5;
+}
+
+.top-links li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.background-header {
+	background-color: #245D7D;
+	color: white;
+	background-color: rgb(32, 101, 136);
+	background-image: url(images/city-scape.svg);
+	background-size: 100% 100%;
+	height: 400px;
+}
+
+.search {
+	color: rgba(255, 255, 255, 0.8);
+	padding: 1em;
+	background-color: rgb(31, 82, 111);
+	line-height: 1.5;
+	vertical-align: middle;
+}
+
+.search p {
+	color: rgba(255, 255, 255, 0.8);
+	float: right;
+	width: 11%;
+}
+
+.search a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+a:visited {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.search input {
+	background: #20516F;
+	width: 75%;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 1em;
+	height: 30px;
+	margin: 0 1em 0 1em;
+}
+
+.link-btn {
+	background-color: rgb(240, 146, 51);
+	border-radius: 29px 29px 29px 29px;
+	padding: 0.5em;
+	margin: 0.5em;
+	width: 150px;
+	-moz-border-radius: 29px 29px 29px 29px;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+}
+
+.header-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+}
+
+.float-left {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.float-left p {
+	font-size: 1.2em;
+	padding-top: 1em;
+}
+
+.img-city-scape {
+	float: right;
+	width: 70%;
+}
+
+.header img {
+	float: right;
+}
+
+.logo-header {
+	width: 90px;
+	float: left;
+}
+
+.img-bear {
+	width: 25px;
+	height: 25px;
+}
+
+.header-left {
+	display: inline-block;
+	margin: 0auto;
+}
+
+.container {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.container li {
+	padding: 0.3em 0 0.3em 0;
+}
+
+.container p {
+	text-align: center;
+	padding-top: 1em;
+}
+
+.container-1 {
+	margin: 0 auto;
+	display: table;
+	width: 90%;
+}
+
+.container-1 h2 {
+	text-align: center;
+	font-weight: 200;
+	padding: 2rem;
+}
+
+.container-1 header {
+	padding: 1.3rem;
+	font-size: 1.25rem;
+}
+
+.container-1 p {
+	font-size: 1rem;
+}
+
+.container-1 a {
+	color: #cb3837;
+	text-decoration: none;
+}
+
+.btn-rojo {
+	background-color: #CB3837;
+	width: 100%;
+	text-align: center;
+	padding-top: 1em 0 1em;
+}
+
+.btn-azul {
+	background-color: #253544;
+	width: 20%;
+}
+
+.collaboration {
+	color: white;
+	text-decoration: none;
+	background-color: #263546;
+	padding: 5em;
+}
+
+.collaboration a {
+	text-decoration: none;
+}
+
+.padding {
+	padding: 2em;
+	text-align: center;
+}
+
+.col {
+	width: 40%;
+	padding: 3em;
+	display: inline-block;
+	/**display: table-cell;*/
+	vertical-align: middle;
+}
+
+.col-1 {
+	justify-content: center;
+	float: left;
+}
+
+.col-2 {
+	float: right;
+}
+
+.lst-separada {
+	line-height: 1.5;
+	font-size: 1.25rem;
+}
+
+.col1 {
+	float: left;
+	padding: 5rem 0 5rem 0;
+}
+
+.col-3 {
+	width: 33.33%;
+}
+
+.col-middle {
+	margin: 0 0%;
+}
+
+.text-center {
+	text-align: center;
+	color: rgb(135, 145, 156);
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+
+.what-is-npm {
+	background: url(images/forklift.svg);
+	background-size: 115% 110%;
+	padding: 2em;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.what-is-npm p {
+	padding: 1em 0 1em 0;
+}
+
+.text-white {
+	color: white;
+}
+
+.izquierda {
+	width: 50%;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.heading-section-what-can {
+	margin: 0 auto;
+	background: white;
+	text-align: center;
+	padding-top: 2rem;
+	color: rgb(83, 88, 98);
+}
+
+.heading-section-what-can p {
+	padding-top: 2rem;
+	font-weight: 400;
+}
+
+.section-what-can {
+	width: 100%;
+}
